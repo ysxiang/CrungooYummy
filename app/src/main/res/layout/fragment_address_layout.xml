@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/navigation_restaurant"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+            <TextView
+                android:id="@+id/address_tag"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="街道" />
+
+            <TextView
+                android:id="@+id/address_restaurant"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/city_tag"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="城市" />
+
+            <TextView
+                android:id="@+id/city_restaurant"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <TextView
+                android:id="@+id/tags_tag"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="标签" />
+
+            <TextView
+                android:id="@+id/tags_restaurant"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+</LinearLayout>
+

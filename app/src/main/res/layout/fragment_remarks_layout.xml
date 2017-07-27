@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_remarks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/all_remarks_tag"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="总点评数" />
+
+    <TextView
+        android:id="@+id/all_remarks_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/very_good_remarks_tag"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="非常好" />
+
+    <TextView
+        android:id="@+id/very_good_remarks_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/good_remarks_tag"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="好评" />
+
+    <TextView
+        android:id="@+id/good_remarks_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/common_remarks_tag"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="普通" />
+
+    <TextView
+        android:id="@+id/common_remarks_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/bad_remarks_tag"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="差" />
+
+    <TextView
+        android:id="@+id/bad_remarks_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/very_bad_remarks_tag"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="非常差" />
+
+    <TextView
+        android:id="@+id/very_bad_remarks_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+</LinearLayout>
+
