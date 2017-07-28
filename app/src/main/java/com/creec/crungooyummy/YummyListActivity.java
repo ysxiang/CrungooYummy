@@ -58,21 +58,6 @@ public class YummyListActivity extends AppCompatActivity {
 //        this.mSelectedPos = mSelectedPos;
 //    }
 
-    private Handler handler = new Handler(Looper.getMainLooper()) {
-        @Override
-        public void handleMessage(Message msg) {
-            switch (msg.what) {
-                case KSuccess:
-                    YummyListFragment f = new YummyListFragment();
-                    launchFragment(f);
-                    break;
-                default:
-                    break;
-            }
-            super.handleMessage(msg);
-        }
-    };
-
     private void openGPSSettings() {
         LocationManager alm = (LocationManager) this
                 .getSystemService(Context.LOCATION_SERVICE);
@@ -124,7 +109,7 @@ public class YummyListActivity extends AppCompatActivity {
         getAsynHttp();
     }
 
-    private void getAsynHttp() {
+    private void getAsynHttp() {    // 异步获取数据
         mOkHttpClient = new OkHttpClient(); // 初始化请求客户端
         String catUrl = url2;
 
@@ -136,7 +121,6 @@ public class YummyListActivity extends AppCompatActivity {
         } else {
             catUrl = url;
         }
-
 
         Request request = new Request.Builder().url(catUrl).build();
         mOkHttpClient.newCall(request).enqueue(new Callback() {  // 当响应可读时回调Callback接口，enqueue进入子线程
@@ -160,6 +144,21 @@ public class YummyListActivity extends AppCompatActivity {
             }
         });
     }
+
+    private Handler handler = new Handler(Looper.getMainLooper()) {
+        @Override
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case KSuccess:
+                    YummyListFragment f = new YummyListFragment();
+                    launchFragment(f);
+                    break;
+                default:
+                    break;
+            }
+            super.handleMessage(msg);
+        }
+    };
 
     public void launchFragment(android.support.v4.app.Fragment f) {
         getSupportFragmentManager().beginTransaction()

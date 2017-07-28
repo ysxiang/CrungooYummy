@@ -1,5 +1,6 @@
 package Fragment;
 
+
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -156,11 +157,11 @@ public class YummyDetailFragment extends Fragment implements MyObserver {
     @Override
     public void notifyStatusChange(int status) {    // MyObserver的函数
         if (status == 0) {
-            addressTag.setBackgroundColor(Color.BLUE);
-            remarksTag.setBackgroundColor(Color.RED);
+            addressTag.setBackgroundColor(Color.parseColor("#D2691E"));
+            remarksTag.setBackgroundColor(Color.parseColor("#EEC900"));
         } else if (status == 1) {
-            addressTag.setBackgroundColor(Color.RED);
-            remarksTag.setBackgroundColor(Color.BLUE);
+            addressTag.setBackgroundColor(Color.parseColor("#EEC900"));
+            remarksTag.setBackgroundColor(Color.parseColor("#D2691E"));
         }
     }
 }

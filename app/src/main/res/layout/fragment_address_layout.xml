@@ -10,40 +10,47 @@
             <TextView
                 android:id="@+id/navigation_restaurant"
                 android:layout_width="match_parent"
-                android:layout_height="70dp" />
+                android:layout_height="70dp"
+                android:textColor="#3B3B3B"/>
 
             <TextView
                 android:id="@+id/address_tag"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="街道" />
+                android:text="街道"
+                android:textColor="#3B3B3B"/>
 
             <TextView
                 android:id="@+id/address_restaurant"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="50dp"
+                android:textColor="#3B3B3B"/>
 
             <TextView
                 android:id="@+id/city_tag"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="城市" />
+                android:text="城市"
+                android:textColor="#3B3B3B"/>
 
             <TextView
                 android:id="@+id/city_restaurant"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"/>
+                android:layout_height="50dp"
+                android:textColor="#3B3B3B"/>
 
             <TextView
                 android:id="@+id/tags_tag"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="标签" />
+                android:text="标签"
+                android:textColor="#3B3B3B"/>
 
             <TextView
                 android:id="@+id/tags_restaurant"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"/>
+                android:layout_height="50dp"
+                android:textColor="#3B3B3B"/>
 
 </LinearLayout>
 

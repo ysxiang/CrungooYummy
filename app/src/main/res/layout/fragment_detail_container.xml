@@ -3,7 +3,8 @@
     android:id="@+id/fragment_detail"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#FAFAFA">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -15,6 +16,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="3"
                 android:gravity="center"
+                android:textColor="#3B3B3B"
+                android:textStyle="bold"
                 />
 
             <ImageView
@@ -41,9 +44,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:textColor="#303030"
+                    android:textColor="#FAFAFA"
                     android:background="#EEE9E9"
-                    android:text="地址"/>
+                    android:text="地址" />
 
                 <TextView
                     android:id="@+id/text_remarks"
@@ -51,7 +54,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:textColor="#303030"
+                    android:textColor="#FAFAFA"
                     android:background="#EEE9E9"
                     android:text="详情"/>
             </LinearLayout>

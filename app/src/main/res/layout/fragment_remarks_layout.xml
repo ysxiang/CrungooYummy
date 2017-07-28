@@ -11,66 +11,78 @@
         android:id="@+id/all_remarks_tag"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="总点评数" />
+        android:text="总点评数"
+        android:textColor="#3B3B3B"/>
 
     <TextView
         android:id="@+id/all_remarks_restaurant"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="50dp"
+        android:textColor="#3B3B3B"/>
 
     <TextView
         android:id="@+id/very_good_remarks_tag"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:text="非常好" />
+        android:text="非常好"
+        android:textColor="#3B3B3B"/>
 
     <TextView
         android:id="@+id/very_good_remarks_restaurant"
         android:layout_width="match_parent"
-        android:layout_height="40dp"/>
+        android:layout_height="40dp"
+        android:textColor="#3B3B3B"/>
 
     <TextView
         android:id="@+id/good_remarks_tag"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:text="好评" />
+        android:text="好评"
+        android:textColor="#3B3B3B"/>
 
     <TextView
         android:id="@+id/good_remarks_restaurant"
         android:layout_width="match_parent"
-        android:layout_height="40dp"/>
+        android:layout_height="40dp"
+        android:textColor="#3B3B3B"/>
 
     <TextView
         android:id="@+id/common_remarks_tag"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:text="普通" />
+        android:text="普通"
+        android:textColor="#3B3B3B"/>
 
     <TextView
         android:id="@+id/common_remarks_restaurant"
         android:layout_width="match_parent"
-        android:layout_height="40dp"/>
+        android:layout_height="40dp"
+        android:textColor="#3B3B3B"/>
 
     <TextView
         android:id="@+id/bad_remarks_tag"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:text="差" />
+        android:text="差"
+        android:textColor="#3B3B3B"/>
 
     <TextView
         android:id="@+id/bad_remarks_restaurant"
         android:layout_width="match_parent"
-        android:layout_height="40dp"/>
+        android:layout_height="40dp"
+        android:textColor="#3B3B3B"/>
 
     <TextView
         android:id="@+id/very_bad_remarks_tag"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:text="非常差" />
+        android:text="非常差"
+        android:textColor="#3B3B3B"/>
 
     <TextView
         android:id="@+id/very_bad_remarks_restaurant"
         android:layout_width="match_parent"
-        android:layout_height="40dp"/>
+        android:layout_height="40dp"
+        android:textColor="#3B3B3B"/>
 </LinearLayout>
 
